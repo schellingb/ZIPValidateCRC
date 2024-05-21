@@ -1,0 +1,3 @@
+echo Building \'ZIPValidateCRC-`uname -m`\' ...
+clang -std=c++11 ZIPValidateCRC.cpp -lstdc++ -Wall -o ZIPValidateCRC-`uname -m`
+echo Done!
